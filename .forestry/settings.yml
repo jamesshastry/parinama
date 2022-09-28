@@ -4,6 +4,20 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: About
+- type: directory
+  path: Blog
+  label: Blog
+  create: all
+  match: "**/*"
+- type: directory
+  path: coaching
+  label: Leadership Coaching
+  create: all
+  match: "**/*"
+  templates:
+  - detail-content
 - type: document
   path: README-FORESTRY.md
   label: Help
