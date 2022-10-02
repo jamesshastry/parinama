@@ -1,4 +1,31 @@
-baseURL = ""
+baseURL = 'http://parinama-leadership.com/'
 languageCode = "en-us"
 theme = "ubuild-hugo"
-title = "uBuild: A Page Builder For Hugo and Forestry.io"
+title = 'Parinama Leadership'
+
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Hi, I'm James :wave:"
+  sub = "I'm at the intersection of  Product, Data Analytics and Leadership coaching"
+
+[params.social]
+  # github = "https://github.com/"
+  # twitter = "https://twitter.com/"
+  linkedin = "https://www.linkedin.com/in/james108"
+  # medium = "https://medium.com/"
+  # codepen = "https://codepen.io/"
+  # facebook = "https://www.facebook.com/"
+  # youtube = "https://www.youtube.com/"
+  # instagram = "https://www.instagram.com/"
+  # gitlab = "https://gitlab.com/"
+  # keybase = "https://keybase.io/"
+
+[params.contact]
+  email = "james@parinama-leadership.com"
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+
