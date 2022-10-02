@@ -11,3 +11,5 @@ fields:
   name: column
   label: Column
   template: text-column
+pages:
+- Blog/Learning_vs_growth.md
